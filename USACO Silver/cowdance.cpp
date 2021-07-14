@@ -18,7 +18,27 @@ typedef pair<int, int> pi;
 #define ub upper_bound
 #define endl "\n"
 
+int N, T;
+vi cows;
+
+
+int Tcalc(int K) {
+	
+}
+
 int main () {
-    
+	ifstream cin("cowdance.in");
+	cin >> N >> T;
+	cows.resize(N);
+	FOR(i, N) {
+		cin >> cows[i];
+	}
+
+	// Basically, first calculate the minimum value of K, and the maximum value of K
+	// Then Binary search on this with a function to output if it's true or not.
+	
     return 0;
 }
+
+
+

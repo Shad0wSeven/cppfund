@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 
+
 using namespace std;
 
 typedef long long ll;
@@ -34,7 +35,6 @@ int main () {
         interest.pb(inp[N - i - 1]);
     }
 
-    sort(inp.begin(), inp.end(), );
     FOR(i, 3) {
         interest.pb(inp[i]);
         interest.pb(inp[N - i - 1]);
